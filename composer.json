@@ -1,0 +1,28 @@
+{
+    "name": "diserver/diserver",
+    "description": "The DIServer Framework.",
+    "keywords": ["framework", "DIServer"],
+    "license": "Apache2",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "ext-swoole": ">=1.7.20",
+        "topthink/thinkphp": "dev-master",
+        "diserver/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },		
+    "repositories": [
+	{
+			"type": "vcs",
+			"url": "https://github.com/szyhf/thinkphp.git"
+		},
+		{
+			"type":"vcs",
+			"url":"https://github.com/szyhf/DIServer.git"
+		}
+	]
+}
